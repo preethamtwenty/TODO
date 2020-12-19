@@ -1,0 +1,12 @@
+.completed{
+   
+    flex:0.5;
+    color: #8e8d8a;
+    padding:20px;
+  
+    margin-left: 30PX;
+}
+.completed_items{
+    display: flex;
+    align-items: center;
+}

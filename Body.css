@@ -1,0 +1,67 @@
+.body{
+    display: flex;
+    flex:1;
+    align-items: center;
+
+    
+}
+.body_left{
+    flex:0.2;
+    font-size: 60px;
+    color:#E85A4F;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    vertical-align: center !important;
+
+}
+.body_right{
+    flex:0.2;
+    
+}
+.body_middle{
+    flex:0.6;
+    color:#E85A4F
+}
+.input_area{
+    align-items: center;
+    display: flex;
+
+}
+.input_bar{
+    width:100%;
+    font-family: 'Cuprum', sans-serif;
+    
+    background-color: #EAE7DC;
+    height:30px;
+    color:#E85A4F !important;
+    font-size: 30px;
+    border: none;
+    border-bottom: 0.5px solid rgb(121, 121, 121);
+    border-bottom-width:0.2px ;
+    padding:3px;
+}
+.input_bar:focus{
+    outline: none;
+}
+.add_icon{
+  
+    border-radius: 100px;
+    font-size: 30px !important;
+}
+.body_main{
+    display: flex;
+    margin-top: 30px;
+}
+.Todo{
+    flex:0.5;
+    
+}
+.add_icon:hover{
+    cursor: pointer;
+
+}
+.Completed{
+    flex:0.5;
+}

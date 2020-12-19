@@ -1,0 +1,65 @@
+.todo{
+    background-color: #E98074;
+    flex:0.5;
+    color: white;
+    padding:20px;
+    margin-top: 20px;
+}
+.todo_item{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: space-between;
+}
+.dot_icon{
+    font-size: 14px !important;
+    margin-right: 20px;
+}
+.todo_content{
+    font-family: 'Lato', sans-serif !important;
+
+
+}
+.delete_icon{
+    margin-left: 30px;
+    
+    
+    border-radius: 100px;
+    color: #8E8D8A;
+}
+
+.done_icon{
+    color:green;
+    font-size: 20px !important;
+
+}
+.done_icon:hover{
+    color:green;
+    font-size: 20px !important;
+    cursor: pointer;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.delete_icon:hover{
+    cursor: pointer;
+    animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
